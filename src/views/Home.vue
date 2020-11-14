@@ -6,19 +6,16 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
+
+import { Options, Vue } from 'vue-class-component' 
 
 
 
 
 
 
-
-
-
-
-@Component({})
-export default class Home extends Vue {
+@Options({})
+export default class HomeView extends Vue {
 
 
 }
@@ -30,3 +27,11 @@ export default class Home extends Vue {
 
 
 </script>
+
+
+<style lang="less">
+
+
+
+
+</style>
